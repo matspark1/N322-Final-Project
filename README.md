@@ -12,9 +12,9 @@ This app allows users to create wishlists and add product links. It uses Firebas
    npm install
    ```
 
-2. Install clerk
+2. Install firebase
    ```bash
-   npm install @clerk/clerk-expo
+   npm install firebase
    ```
 
 3. Install React Native Paper components.
