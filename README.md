@@ -1,6 +1,6 @@
 # Matthew Sparkman N322 Final Project
 
-## Assignment Instructions:
+## Project Overview:
 
 This app allows users to create wishlists and add product links. It uses Firebase for authentication and Firestore to store and manage wishlist data.
 
