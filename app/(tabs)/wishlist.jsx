@@ -18,7 +18,7 @@ import {
   deleteDoc,
   doc,
 } from "firebase/firestore";
-import { getAuth } from "firebase/auth"; // For getting the current user
+import { getAuth } from "firebase/auth";
 import SimpleLineIcons from "@expo/vector-icons/SimpleLineIcons";
 
 export default function Wishlist() {
@@ -67,7 +67,7 @@ export default function Wishlist() {
     const wishObj = {
       title: wishTitle,
       link: wishLink,
-      userId: user.uid, // Include userId
+      userId: user.uid,
     };
 
     try {
